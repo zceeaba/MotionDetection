@@ -1,0 +1,17 @@
+# Ignore compilation outputs
+bin/*
+lib/*
+build/*
+!build/.keep
+.vscode/ipch
+# Ignore IDE config
+.clion.source.upload.marker
+# Ignore generate documentation
+doc/html/*
+doc/latex/*
+# (But keep folder structure)
+!.keep
+exp/*
+!exp/.keep
+!exp/testBenchForTestFunctions
+.idea/
